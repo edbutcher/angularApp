@@ -21,7 +21,7 @@
 # IDE - VSCode
 .vscode/*
 /.vs
-.vs
+.vs/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
