@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = '';
   url = '';
-  listItem: any;
+  listItems: any;
   constructor() {
-    this.listItem = [
+    this.listItems = [
       {
         name: 'Home',
         link: '/home'
@@ -34,7 +34,7 @@ export class AppComponent {
     if (title !== '' && url !== '') {
       url = `http://${url}`;
 
-      this.listItem.push({
+      this.listItems.push({
         name: title,
         link: url,
         isNew: true
